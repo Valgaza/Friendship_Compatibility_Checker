@@ -27,3 +27,18 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Java Compiled Files ###
+*.class
+
+### Logs ###
+*.log
+
+### Maven/Gradle Output Folders ###
+/target/
+/build/
+
+### Temporary Files ###
+*.tmp
+*.swp
+*.swo
