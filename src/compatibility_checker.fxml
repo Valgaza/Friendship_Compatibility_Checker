@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Tooltip?>
+
+<GridPane alignment="CENTER" hgap="20" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="CompatibilityController">
+
+    <!-- Person 1 Column -->
+    <Label text="Person 1 Name:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <TextField fx:id="name1Field" GridPane.rowIndex="0" GridPane.columnIndex="1">
+        <tooltip><Tooltip text="Enter the full name of Person 1"/></tooltip>
+    </TextField>
+
+    <Label text="Person 1 Age:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <TextField fx:id="age1Field" GridPane.rowIndex="1" GridPane.columnIndex="1">
+        <tooltip><Tooltip text="Enter the age of Person 1 (e.g., 25)"/></tooltip>
+    </TextField>
+
+    <Label text="Person 1 Favorite Color:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <TextField fx:id="color1Field" GridPane.rowIndex="2" GridPane.columnIndex="1">
+        <tooltip><Tooltip text="Enter the favorite color of Person 1"/></tooltip>
+    </TextField>
+
+    <Label text="Person 1 Hobbies (comma-separated):" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <TextField fx:id="hobby1Field" GridPane.rowIndex="3" GridPane.columnIndex="1">
+        <tooltip><Tooltip text="Enter hobbies of Person 1 (e.g., Reading, Hiking)"/></tooltip>
+    </TextField>
+
+    <Label text="Person 1 Interests (comma-separated):" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+    <TextField fx:id="interest1Field" GridPane.rowIndex="4" GridPane.columnIndex="1">
+        <tooltip><Tooltip text="Enter interests of Person 1 (e.g., Music, Technology)"/></tooltip>
+    </TextField>
+
+    <Label text="Person 1 Personality Type:" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+    <TextField fx:id="personality1Field" GridPane.rowIndex="5" GridPane.columnIndex="1">
+        <tooltip><Tooltip text="Enter the personality type of Person 1 (e.g., ENFP, ISTJ, introvert, extrovert)"/></tooltip>
+    </TextField>
+
+    <Label text="Person 1 Communication Style:" GridPane.rowIndex="6" GridPane.columnIndex="0"/>
+    <TextField fx:id="communicationStyle1Field" GridPane.rowIndex="6" GridPane.columnIndex="1">
+        <tooltip><Tooltip text="Enter the communication style of Person 1"/></tooltip>
+    </TextField>
+    <Label text="Possible options: Direct, Indirect, Emotional, Logical" GridPane.rowIndex="7" GridPane.columnIndex="1"/>
+
+    <Label text="Person 1 Conflict Resolution Style:" GridPane.rowIndex="8" GridPane.columnIndex="0"/>
+    <TextField fx:id="conflictResolution1Field" GridPane.rowIndex="8" GridPane.columnIndex="1">
+        <tooltip><Tooltip text="Enter the conflict resolution style of Person 1"/></tooltip>
+    </TextField>
+    <Label text="Possible options: Avoidant, Confrontational, Compromising" GridPane.rowIndex="9" GridPane.columnIndex="1"/>
+
+    <Label text="Person 1 Core Values (comma-separated):" GridPane.rowIndex="10" GridPane.columnIndex="0"/>
+    <TextField fx:id="values1Field" GridPane.rowIndex="10" GridPane.columnIndex="1">
+        <tooltip><Tooltip text="Enter the core values of Person 1 (e.g., Family, Honesty, Ambition)"/></tooltip>
+    </TextField>
+
+    <!-- Person 2 Column -->
+    <Label text="Person 2 Name:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+    <TextField fx:id="name2Field" GridPane.rowIndex="0" GridPane.columnIndex="3">
+        <tooltip><Tooltip text="Enter the full name of Person 2"/></tooltip>
+    </TextField>
+
+    <Label text="Person 2 Age:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+    <TextField fx:id="age2Field" GridPane.rowIndex="1" GridPane.columnIndex="3">
+        <tooltip><Tooltip text="Enter the age of Person 2 (e.g., 25)"/></tooltip>
+    </TextField>
+
+    <Label text="Person 2 Favorite Color:" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+    <TextField fx:id="color2Field" GridPane.rowIndex="2" GridPane.columnIndex="3">
+        <tooltip><Tooltip text="Enter the favorite color of Person 2"/></tooltip>
+    </TextField>
+
+    <Label text="Person 2 Hobbies (comma-separated):" GridPane.rowIndex="3" GridPane.columnIndex="2"/>
+    <TextField fx:id="hobby2Field" GridPane.rowIndex="3" GridPane.columnIndex="3">
+        <tooltip><Tooltip text="Enter hobbies of Person 2 (e.g., Reading, Hiking)"/></tooltip>
+    </TextField>
+
+    <Label text="Person 2 Interests (comma-separated):" GridPane.rowIndex="4" GridPane.columnIndex="2"/>
+    <TextField fx:id="interest2Field" GridPane.rowIndex="4" GridPane.columnIndex="3">
+        <tooltip><Tooltip text="Enter interests of Person 2 (e.g., Music, Technology)"/></tooltip>
+    </TextField>
+
+    <Label text="Person 2 Personality Type:" GridPane.rowIndex="5" GridPane.columnIndex="2"/>
+    <TextField fx:id="personality2Field" GridPane.rowIndex="5" GridPane.columnIndex="3">
+        <tooltip><Tooltip text="Enter the personality type of Person 2 (e.g., ENFP, ISTJ, introvert, extrovert)"/></tooltip>
+    </TextField>
+
+    <Label text="Person 2 Communication Style:" GridPane.rowIndex="6" GridPane.columnIndex="2"/>
+    <TextField fx:id="communicationStyle2Field" GridPane.rowIndex="6" GridPane.columnIndex="3">
+        <tooltip><Tooltip text="Enter the communication style of Person 2"/></tooltip>
+    </TextField>
+    <Label text="Possible options: Direct, Indirect, Emotional, Logical" GridPane.rowIndex="7" GridPane.columnIndex="3"/>
+
+    <Label text="Person 2 Conflict Resolution Style:" GridPane.rowIndex="8" GridPane.columnIndex="2"/>
+    <TextField fx:id="conflictResolution2Field" GridPane.rowIndex="8" GridPane.columnIndex="3">
+        <tooltip><Tooltip text="Enter the conflict resolution style of Person 2"/></tooltip>
+    </TextField>
+    <Label text="Possible options: Avoidant, Confrontational, Compromising" GridPane.rowIndex="9" GridPane.columnIndex="3"/>
+
+    <Label text="Person 2 Core Values (comma-separated):" GridPane.rowIndex="10" GridPane.columnIndex="2"/>
+    <TextField fx:id="values2Field" GridPane.rowIndex="10" GridPane.columnIndex="3">
+        <tooltip><Tooltip text="Enter the core values of Person 2 (e.g., Family, Honesty, Ambition)"/></tooltip>
+    </TextField>
+
+    <!-- Check Compatibility Button at the bottom across both columns -->
+    <Button text="Check Compatibility" onAction="#checkCompatibility" GridPane.rowIndex="11" GridPane.columnIndex="1" GridPane.columnSpan="3"/>
+
+    <!-- Result label at the bottom below the button -->
+    <Label fx:id="resultLabel" text="" GridPane.rowIndex="12" GridPane.columnIndex="1" GridPane.columnSpan="3"/>
+
+</GridPane>
